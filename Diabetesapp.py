@@ -46,7 +46,7 @@ import numpy as np
 import joblib
 
 # Load trained model
-model = joblib.load(r'B:\DiabetesApp\model\diabetes_predict_model.pkl')
+model = joblib.load(r'diabetes_predict_model.pkl')
 best_thresh = 0.51  # Based on your F1 optimization
 
 st.title('🩺 Diabetes Prediction App')
